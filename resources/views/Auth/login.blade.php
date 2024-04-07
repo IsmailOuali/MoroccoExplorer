@@ -26,7 +26,7 @@
               </div>
               <div class="flex items-center mb-2 text=sm">
                 <input type="checkbox" class="ml-2 w-4 h-4 border-gray-300 rounded text-blue-600 bg-gray-100">
-                <label class="ms-4 text-sm font-medium text-gray-900 " for="">Remember me</label>
+                <label class="ms-2 text-sm font-medium text-white" for="">Remember me</label>
             </div>
               <div class="mt-8 flex justify-center text-lg text-black">
                 <button type="submit" class="rounded-3xl bg-blue-400 bg-opacity-50 px-10 py-2 text-white shadow-xl backdrop-blur-md transition-colors duration-300 hover:bg-yellow-600">Login</button>

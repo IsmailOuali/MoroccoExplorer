@@ -23,20 +23,29 @@
             <div class="flex items-center justify-center pt-8">
                 <p class="text-3xl text-white font-bold">A discuter</p>
             </div>
-            <div class="w-1/2 mt-8 flex flex-col items-center">
-                <div class="mt-4 w-96">
-                    <img src="/images/logo.png" class="h-32 ">
+            <div class=" mt-8 flex flex-col justify-between items-center">
+                <div class="mt-8 w-96">
+                    <img src="/images/logo.png" class=" ">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt nam molestiae sit aliquid eligendi fuga perspiciatis, incidunt dolorum exercitationem at fugit, quis, odit voluptatum asperiores vero ad. Aspernatur, natus voluptate.</p>
                 </div>
-                <div class="mt-4 w-64">
+                <div class="mt-8 w-64">
                     <img src="/images/logo.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias similique nesciunt corrupti nulla veritatis natus animi laborum quibusdam temporibus suscipit, velit voluptatibus porro ipsam culpa et voluptas accusamus? Expedita, consequuntur?</p>
                 </div>
-                <div class="mt-4 w-64">
+                <div class="mt-8 w-64">
                     <img src="/images/logo.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, aliquid sint, rem vel cumque optio corrupti illum quos voluptatibus laborum assumenda impedit totam omnis obcaecati at officiis quo ipsa voluptatum.</p>
                 </div>
-                <div class="mt-4 w-64">
+                <div class="mt-8 w-64">
                     <img src="/images/logo.png" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatibus dignissimos, odio nemo temporibus earum facilis animi, commodi id cumque harum ea excepturi illum aspernatur consequatur nam ullam error praesentium.
+                    </p>
                 </div>
             </div>
+        </section>
+        <section>
+            
         </section>
 
     </body>

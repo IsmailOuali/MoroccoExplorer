@@ -28,14 +28,13 @@
                     <div class="mb-4 text-lg">
                         <input class="rounded-2xl border-none bg-yellow-200 bg-opacity-50 px-6 py-2 text-center text-inherit placeholder-slate-200 shadow-lg outline-none backdrop-blur-md" type="Password" name="Password" placeholder="*********" />
                     </div>
-                        <div class="mb-4 text-lg">
-                            <select class="rounded-2xl border-none bg-yellow-200 bg-opacity-50 px-6 py-2 text-center text-inherit placeholder-slate-200 shadow-lg outline-none backdrop-blur-md">
-                                <option class="bg-black" selected>Whats your Role?</option>
-                                <option>Client</option>
-                                <option>Guide</option>
-                                <option>Artisan</option>
-                            </select>
-                        </div>
+                    <div class="mb-4 text-lg">
+                        <select class="rounded-2xl border-none bg-yellow-200 bg-opacity-50 px-6 py-2 text-center text-inherit placeholder-slate-200 shadow-lg outline-none backdrop-blur-md">
+                            <option class="bg-yellow-200 text-black">Client</option>
+                            <option class="bg-yellow-200 text-black">Guide</option>
+                            <option class="bg-yellow-200 text-black">Artisan</option>
+                        </select>
+                    </div>
             
                     <div class="mt-8 flex justify-center text-lg text-black">
                         <button type="submit" class="rounded-2xl bg-blue-400 bg-opacity-50 px-10 py-2 text-white shadow-xl backdrop-blur-md transition-colors duration-300 hover:bg-yellow-600">Register</button>

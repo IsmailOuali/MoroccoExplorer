@@ -18,3 +18,6 @@ Route::get('/client/home', function () {
 Route::get('/client/store', function () {
     return view('client/store');
 });
+Route::get('/client/blog', function () {
+    return view('client/blog');
+});

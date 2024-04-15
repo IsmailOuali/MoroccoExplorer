@@ -24,3 +24,6 @@ Route::get('/client/blog', function () {
 Route::get('/client/contact', function () {
     return view('client/contact');
 });
+Route::get('/client/single', function () {
+    return view('client/single');
+});

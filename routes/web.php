@@ -21,3 +21,6 @@ Route::get('/client/store', function () {
 Route::get('/client/blog', function () {
     return view('client/blog');
 });
+Route::get('/client/contact', function () {
+    return view('client/contact');
+});

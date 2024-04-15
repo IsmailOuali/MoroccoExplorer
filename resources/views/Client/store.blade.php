@@ -70,7 +70,10 @@
     <body class="bg-black">
 
     <!--Nav-->
-    @include('layouts.nav')
+    <nav>
+
+        @include('layouts.nav')
+    </nav>
 
 
     <div class="carousel relative container mx-auto " style="max-width:1600px;">
@@ -150,18 +153,13 @@
 
                     <div class="flex items-center" id="store-nav-content">
 
-                        <a class="pl-3 inline-block no-underline hover:text-black" href="#">
-                            <svg class="fill-current hover:text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                <path d="M7 11H17V13H7zM4 7H20V9H4zM10 15H14V17H10z" />
-                            </svg>
-                        </a>
+                        <div class="pl-3 inline-block no-underline hover:text-black" href="#">
+                            <input class="mx-8 pr-2 bg-gray-200 rounded text-2xl font-semibold" type="text" placeholder="Search...">
+                            <button class="bg-red-200 p-2 text-black font-semibold text-xl rounded">Search</button>
+                        </div>
 
-                        <a class="pl-3 inline-block no-underline hover:text-black" href="#">
-                            <svg class="fill-current hover:text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                <path d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z" />
-                            </svg>
-                        </a>
-                        <select class="pl-3 inline-block bg-gray-200 rounded mx-4 pr-8" href="#">
+
+                        <select class="pl-3 inline-block bg-gray-200 rounded mx-4 pr-8 text-2xl font-semibold" href="#">
                             <option value="Categories">Categories</option>
                         </select>
 

@@ -15,3 +15,6 @@ Route::get('/Auth/register', function () {
 Route::get('/client/home', function () {
     return view('client/home');
 });
+Route::get('/client/store', function () {
+    return view('client/store');
+});

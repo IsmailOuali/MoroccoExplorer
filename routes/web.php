@@ -27,3 +27,6 @@ Route::get('/client/contact', function () {
 Route::get('/client/single', function () {
     return view('client/single');
 });
+Route::get('/client/travel', function () {
+    return view('client/travel');
+});

@@ -147,15 +147,15 @@
             <nav id="store" class="w-full z-30 top-0 px-6 py-1">
                 <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-3">
 
-                    <a class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl " href="#">
+                    <a class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-3xl " href="#">
                     Store
                     </a>
 
                     <div class="flex items-center" id="store-nav-content">
 
                         <div class="pl-3 inline-block no-underline hover:text-black" href="#">
-                            <input class="mx-8 pr-2 bg-gray-200 rounded text-2xl font-semibold" type="text" placeholder="Search...">
-                            <button class="bg-red-200 p-2 text-black font-semibold text-xl rounded">Search</button>
+                            <input class="mx-8 ml-3 h-10 pr-2 bg-gray-200 rounded text-2xl font-semibold border-none" type="text" placeholder="Search...">
+                            <button class="bg-red-200 p-2 w-24 m-auto text-black font-semibold text-xl rounded-full">Search</button>
                         </div>
 
 
@@ -273,6 +273,47 @@
 
             </div>
 
+    </section>
+    <section class="bg-blue-200 flex justify-center items-center">
+        <nav class="">
+            <ul class="list-style-none flex">
+              <li>
+                <a
+                  class="relative block rounded bg-white px-3 py-1.5 text-sm text-surface transition duration-300 hover:bg-neutral-100 focus:bg-neutral-100 focus:text-primary-700 focus:outline-none focus:ring-0 active:bg-neutral-100 active:text-primary-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700 dark:focus:text-primary-500 dark:active:bg-neutral-700 dark:active:text-primary-500"
+                  href="#"
+                  >Previous</a
+                >
+              </li>
+              <li>
+                <a
+                  class="relative block rounded bg-white px-3 py-1.5 text-sm text-surface transition duration-300 hover:bg-neutral-100 focus:bg-neutral-100 focus:text-primary-700 focus:outline-none active:bg-neutral-100 active:text-primary-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700 dark:focus:text-primary-500 dark:active:bg-neutral-700 dark:active:text-primary-500"
+                  href="#"
+                  >1</a
+                >
+              </li>
+              <li aria-current="page">
+                <a
+                  class="relative block rounded bg-white px-3 py-1.5 text-sm text-surface transition duration-300 hover:bg-neutral-100 focus:bg-neutral-100 focus:text-primary-700 focus:outline-none active:bg-neutral-100 active:text-primary-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700 dark:focus:text-primary-500 dark:active:bg-neutral-700 dark:active:text-primary-500"
+                  href="#"
+                  >2</a
+                >
+              </li>
+              <li>
+                <a
+                  class="relative block rounded bg-white px-3 py-1.5 text-sm text-surface transition duration-300 hover:bg-neutral-100 focus:bg-neutral-100 focus:text-primary-700 focus:outline-none active:bg-neutral-100 active:text-primary-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700 dark:focus:text-primary-500 dark:active:bg-neutral-700 dark:active:text-primary-500"
+                  href="#"
+                  >3</a
+                >
+              </li>
+              <li>
+                <a
+                  class="relative block rounded bg-white px-3 py-1.5 text-sm text-surface transition duration-300 hover:bg-neutral-100 focus:bg-neutral-100 focus:text-primary-700 focus:outline-none active:bg-neutral-100 active:text-primary-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700 dark:focus:text-primary-500 dark:active:bg-neutral-700 dark:active:text-primary-500"
+                  href="#"
+                  >Next</a
+                >
+              </li>
+            </ul>
+          </nav>
     </section>
 
  

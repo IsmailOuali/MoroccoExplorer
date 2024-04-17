@@ -18,7 +18,7 @@
                     <div class="flex-1 lg:flex lg:items-center lg:-mx-6">
         
                         <div class="mt-8 lg:w-1/2 lg:mx-6">
-                            <div class="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
+                            <div class="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-sky-900 lg:max-w-xl">
                                 <h1 class="text-xl font-medium text-gray-700 dark:text-gray-200">Contact form</h1>
         
                                 <p class="mt-2 text-gray-500 dark:text-gray-400">
@@ -42,7 +42,7 @@
                                         <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 " placeholder="Message"></textarea>
                                     </div>
         
-                                    <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+                                    <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide  capitalize transition-colors duration-300 transform bg-sky-500 rounded-md  text-black hover:text-white hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-70">
                                         get in touch
                                     </button>
                                 </form>

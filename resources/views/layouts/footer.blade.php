@@ -1,4 +1,4 @@
-<footer class="footer footer-center p-10 bg-gradient-to-r from-blue-500 opacity-50 text-white">
+<footer class="footer footer-center p-10 bg-gradient-to-r from-blue-500 opacity-70 text-white">
     <div class="flex">
 
         <aside>
